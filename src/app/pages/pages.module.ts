@@ -16,6 +16,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaComponent } from '../components/grafica/grafica.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { GraficaComponent } from '../components/grafica/grafica.component';
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficaComponent
+        GraficaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
