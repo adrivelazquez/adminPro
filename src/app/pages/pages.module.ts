@@ -34,9 +34,9 @@ import { RxjsComponent } from './rxjs/rxjs.component';
         RxjsComponent
     ],
     exports: [
-        DashboardComponent,
-        ProgressComponent,
-        Graficas1Component
+        //DashboardComponent,
+        //ProgressComponent,
+        //Graficas1Component
     ],
     imports: [
         SharedModule,
