@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SettingsService, UsuarioService, SidebarService, SharedService, SubirArchivoService } from './service.index';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginGuardGuard } from './guards/login-guard.guard';
+import { ModalUploadService } from '../components/modal-upload/modal-upload.service';
 
 
 
@@ -17,7 +18,8 @@ import { LoginGuardGuard } from './guards/login-guard.guard';
     SharedService,
     UsuarioService,
     LoginGuardGuard,
-    SubirArchivoService
+    SubirArchivoService,
+    ModalUploadService
   ],
   declarations: []
 })
